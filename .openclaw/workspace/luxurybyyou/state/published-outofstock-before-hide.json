@@ -1,0 +1,21 @@
+{
+  "created_at": "2026-05-03T11:53:48.380860+00:00",
+  "products": [
+    {
+      "id": 94212,
+      "name": "Hermes bouncing",
+      "status": "publish",
+      "stock_status": "outofstock",
+      "catalog_visibility": "visible",
+      "permalink": "https://luxurybyyou.com/product/heren-sneaker-28/"
+    },
+    {
+      "id": 75436,
+      "name": "Amiri compleet set",
+      "status": "publish",
+      "stock_status": "outofstock",
+      "catalog_visibility": "visible",
+      "permalink": "https://luxurybyyou.com/product/amiri-compleet-set/"
+    }
+  ]
+}
