@@ -1,0 +1,993 @@
+{
+  "created_at": "2026-05-03T13:34:32.813917+00:00",
+  "rule": "set hoodies+truien to 59.99",
+  "products": [
+    {
+      "id": 92279,
+      "name": "LouisVuitton vest",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/louisvuitton-vest-kopie/"
+    },
+    {
+      "id": 92267,
+      "name": "LouisVuitton vest",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/louisvuitton-vest/"
+    },
+    {
+      "id": 89876,
+      "name": "Louis Vuitton Reversible Hooded Blouson",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/louis-vuitton-reversible-hooded-blouson-6/"
+    },
+    {
+      "id": 88450,
+      "name": "Zegna blauwe tricot teui.",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/zegna-blauwe-tricot-teui/"
+    },
+    {
+      "id": 88444,
+      "name": "Zegna Zwarte tricot trui",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/zegna-zwarte-tricot-trui/"
+    },
+    {
+      "id": 88438,
+      "name": "Zegna tricot trui beige.",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/zegna-tricot-trui-beige/"
+    },
+    {
+      "id": 88432,
+      "name": "Zegna zwarte trui.",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/zegna-zwarte-trui/"
+    },
+    {
+      "id": 88426,
+      "name": "Zegna tricot trui blauw.",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/zegna-tricot-trui-blauw/"
+    },
+    {
+      "id": 88420,
+      "name": "Zegna tricot trui zwart.",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/zegna-tricot-trui-zwart/"
+    },
+    {
+      "id": 88408,
+      "name": "Zegna tricot trui",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/zegna-tricot-trui/"
+    },
+    {
+      "id": 87688,
+      "name": "Dior CD sweater",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/dior-cd-sweater-2/"
+    },
+    {
+      "id": 85856,
+      "name": "Jacquemus Gros Gain Sweater/ Grijs",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/jacquemus-gros-gain-sweater-grijs/"
+    },
+    {
+      "id": 85845,
+      "name": "Céline Zip Hoodie / Donkerblauw",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/celine-zip-hoodie-donkerblauw/"
+    },
+    {
+      "id": 85832,
+      "name": "Céline Zip Hoodie / zwart",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/celine-zip-hoodie-zwart/"
+    },
+    {
+      "id": 85826,
+      "name": "Sweater",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/sweater/"
+    },
+    {
+      "id": 85638,
+      "name": "Balenciaga hoodie",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/balenciaga-hoodie-3/"
+    },
+    {
+      "id": 85622,
+      "name": "Balenciaga hoodie",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/balenciaga-hoodie-2/"
+    },
+    {
+      "id": 85470,
+      "name": "Dior sweater blue.",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/dior-sweater-blue/"
+    },
+    {
+      "id": 85464,
+      "name": "CD Dior Hoodie Beige",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/cd-dior-hoodie-beige/"
+    },
+    {
+      "id": 85453,
+      "name": "Dior sweater green",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/dior-sweater-green/"
+    },
+    {
+      "id": 85447,
+      "name": "Dior sweater black",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/dior-sweater-black/"
+    },
+    {
+      "id": 85441,
+      "name": "Ami hoodie light blue.",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/ami-hoodie-light-blue/"
+    },
+    {
+      "id": 85428,
+      "name": "Ami hoodie black",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/ami-hoodie-black/"
+    },
+    {
+      "id": 85422,
+      "name": "Ami hoodie grey.",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/ami-hoodie-grey/"
+    },
+    {
+      "id": 85411,
+      "name": "Ami hoodie taupe.",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/ami-hoodie-taupe/"
+    },
+    {
+      "id": 85405,
+      "name": "Ami hoodie creme",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/ami-hoodie-creme/"
+    },
+    {
+      "id": 85392,
+      "name": "Ami hoodie navy blue.",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/ami-hoodie-navy-blue/"
+    },
+    {
+      "id": 85386,
+      "name": "Ami hoodie white.",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/ami-hoodie-white/"
+    },
+    {
+      "id": 85372,
+      "name": "Ami hoodie Olive green",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/ami-hoodie-olive-green/"
+    },
+    {
+      "id": 85366,
+      "name": "YSL sweater",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/ysl-sweater/"
+    },
+    {
+      "id": 85360,
+      "name": "Celine hoodie light blue.",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/celine-hoodie-light-blue-2/"
+    },
+    {
+      "id": 85350,
+      "name": "Céline hoodie grey.",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/celine-hoodie-grey/"
+    },
+    {
+      "id": 85344,
+      "name": "Céline Hoodie black",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/celine-hoodie-black/"
+    },
+    {
+      "id": 85338,
+      "name": "Dior hoodie black.",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/dior-hoodie-black-2/"
+    },
+    {
+      "id": 85332,
+      "name": "dior CD hoodie light blue.",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/cd-hoodie-light-blue/"
+    },
+    {
+      "id": 85321,
+      "name": "Dior hoodie white.",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/dior-hoodie-white/"
+    },
+    {
+      "id": 85315,
+      "name": "Dior hoodie grey",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/dior-hoodie-grey-2/"
+    },
+    {
+      "id": 85297,
+      "name": "Dior hoodie blue.",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/dior-hoodie-blue/"
+    },
+    {
+      "id": 85277,
+      "name": "Dior CD hoodie navy blue.",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/dior-cd-hoodie-navy-blue/"
+    },
+    {
+      "id": 85250,
+      "name": "Dior oblique hoodie dark blue.",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/dior-oblique-hoodie-dark-blue/"
+    },
+    {
+      "id": 85236,
+      "name": "Dior oblique hoodie light blue.",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/dior-oblique-hoodie-light-blue/"
+    },
+    {
+      "id": 85222,
+      "name": "Dior oblique hoodie black",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/dior-oblique-hoodie-black/"
+    },
+    {
+      "id": 85221,
+      "name": "Loewe sweater black.",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/loewe-sweater-black-3/"
+    },
+    {
+      "id": 85215,
+      "name": "Loewe sweater grey.",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/loewe-sweater-grey/"
+    },
+    {
+      "id": 85204,
+      "name": "Loewe sweater navy blue.",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/loewe-sweater-navy-blue/"
+    },
+    {
+      "id": 85198,
+      "name": "Loewe sweater linde groen",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/loewe-sweater-linde-groen/"
+    },
+    {
+      "id": 85185,
+      "name": "Loewe sweater light green.",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/loewe-sweater-light-green-2/"
+    },
+    {
+      "id": 85160,
+      "name": "Loewe sweater black",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/loewe-sweater-black-2/"
+    },
+    {
+      "id": 85143,
+      "name": "Loewe sweater dark blue",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/loewe-sweater-dark-blue/"
+    },
+    {
+      "id": 85137,
+      "name": "Jacquemus hoodie light blue",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/jacquemus-hoodie-light-blue/"
+    },
+    {
+      "id": 85113,
+      "name": "Dior CD Sweater Beige",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/dior-cd-sweater-beige/"
+    },
+    {
+      "id": 85107,
+      "name": "Hermes sweater black/ Grey",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/hermes-sweater-black-grey/"
+    },
+    {
+      "id": 85095,
+      "name": "CD Sweater light blue",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/cd-sweater-light-blue/"
+    },
+    {
+      "id": 85089,
+      "name": "CD Sweater navy blue",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/cd-sweater-navy-blue/"
+    },
+    {
+      "id": 85078,
+      "name": "Ami sweater black",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/ami-sweater-black/"
+    },
+    {
+      "id": 85072,
+      "name": "Dior CD sweater black",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/dior-cd-sweater-black/"
+    },
+    {
+      "id": 85061,
+      "name": "Ami sweater White",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/ami-sweater-white/"
+    },
+    {
+      "id": 85049,
+      "name": "Represent vest light blue",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/represent-vest-light-blue/"
+    },
+    {
+      "id": 85043,
+      "name": "Represent vest",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/represent-vest/"
+    },
+    {
+      "id": 85032,
+      "name": "Balenciaga hoodie black",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/balenciaga-hoodie-black/"
+    },
+    {
+      "id": 85016,
+      "name": "Céline hoodie light blue",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/celine-hoodie-light-blue/"
+    },
+    {
+      "id": 85010,
+      "name": "Céline hoodie",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/celine-hoodie/"
+    },
+    {
+      "id": 84997,
+      "name": "Céline hoodie green",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/celine-hoodie-green/"
+    },
+    {
+      "id": 84974,
+      "name": "Represent hoodie white",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/represent-hoodie-white/"
+    },
+    {
+      "id": 84968,
+      "name": "Jacquemus sweater light blue",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/jacquemus-sweater-light-blue/"
+    },
+    {
+      "id": 84956,
+      "name": "Jacquemus sweater light yellow",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/jacquemus-sweater-light-yellow/"
+    },
+    {
+      "id": 84946,
+      "name": "Jacquemus sweater White",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/jacquemus-sweater-white/"
+    },
+    {
+      "id": 84935,
+      "name": "Jacquemus sweater navy blue",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/jacquemus-sweater-navy-blue/"
+    },
+    {
+      "id": 84923,
+      "name": "Jacquemus sweater light green",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/jacquemus-sweater-light-green/"
+    },
+    {
+      "id": 84912,
+      "name": "Jacquemus sweater Taupe",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/jacquemus-sweater-taupe/"
+    },
+    {
+      "id": 84902,
+      "name": "Jacquemus sweater dark green",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/jacquemus-sweater-dark-green/"
+    },
+    {
+      "id": 84892,
+      "name": "Jacquemus sweater black",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/jacquemus-sweater-black/"
+    },
+    {
+      "id": 84881,
+      "name": "Jacquemus hoodie black",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/jacquemus-hoodie-black/"
+    },
+    {
+      "id": 84872,
+      "name": "Jacquemus hoodie taupe",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/jacquemus-hoodie-taupe/"
+    },
+    {
+      "id": 84866,
+      "name": "Jacquemus hoodie / light yellow",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/jacquemus-hoodie-light-yellow/"
+    },
+    {
+      "id": 84860,
+      "name": "Jacquemus hoodie navy blue",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/jacquemus-hoodie-navy-blue/"
+    },
+    {
+      "id": 84850,
+      "name": "Jacquemus hoodie green",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/jacquemus-hoodie-green/"
+    },
+    {
+      "id": 84844,
+      "name": "Jacquemus hoodie light green",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/jacquemus-hoodie-light-green/"
+    },
+    {
+      "id": 84830,
+      "name": "Jacquemus hoodie light blue",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/jacquemus-hoodie-light-blue-2/"
+    },
+    {
+      "id": 84763,
+      "name": "Jacquemus hoodie White",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/jacquemus-hoodie-white/"
+    },
+    {
+      "id": 84757,
+      "name": "Louis Vuitton Monogram Half Zip sluiting / Antraciet",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/louis-vuitton-monogram-half-zip-sluiting-antraciet/"
+    },
+    {
+      "id": 84746,
+      "name": "Dior Hoodie dark grey",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/dior-hoodie-dark-grey/"
+    },
+    {
+      "id": 84740,
+      "name": "Dior Hoodie pale blue",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/dior-hoodie-pale-blue/"
+    },
+    {
+      "id": 84734,
+      "name": "Dior Hoodie black",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/dior-hoodie-black/"
+    },
+    {
+      "id": 84728,
+      "name": "Dior Hoodie light blue",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/dior-hoodie-light-blue/"
+    },
+    {
+      "id": 84718,
+      "name": "Dior Hoodie dark green",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/dior-hoodie-dark-green/"
+    },
+    {
+      "id": 84703,
+      "name": "Dior Hoodie Dark blue",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/dior-hoodie-dark-blue/"
+    },
+    {
+      "id": 84697,
+      "name": "Dior Hoodie grey",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/dior-hoodie-grey/"
+    },
+    {
+      "id": 84691,
+      "name": "Dior Hoodie beige",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/dior-hoodie-beige/"
+    },
+    {
+      "id": 84676,
+      "name": "Dior Hoodie pink",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/dior-hoodie-pink/"
+    },
+    {
+      "id": 84584,
+      "name": "Stone island zip trui donker blauw.",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/stone-island-zip-trui-donker-blauw/"
+    },
+    {
+      "id": 84571,
+      "name": "Heron preston Hoodie white.",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/heron-preston-hoodie-white-2/"
+    },
+    {
+      "id": 84560,
+      "name": "Heron preston Hoodie black.",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/heron-preston-hoodie-black-2/"
+    },
+    {
+      "id": 84550,
+      "name": "Heron Preston hoodie white.",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/heron-preston-hoodie-white/"
+    },
+    {
+      "id": 84540,
+      "name": "Heron Preston hoodie.",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/heron-preston-hoodie/"
+    },
+    {
+      "id": 84528,
+      "name": "Heron Preston hoodie black.",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/heron-preston-hoodie-black/"
+    },
+    {
+      "id": 84517,
+      "name": "Moncler sweater groen/ grijs",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/moncler-sweater-groen-grijs/"
+    },
+    {
+      "id": 84505,
+      "name": "Moncler sweater blauw.",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/moncler-sweater-blauw/"
+    },
+    {
+      "id": 84493,
+      "name": "Moncler sweater zwart.",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/moncler-sweater-zwart/"
+    },
+    {
+      "id": 84480,
+      "name": "Stone island sweater blue",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/stone-island-sweater-blue/"
+    },
+    {
+      "id": 84468,
+      "name": "Stone island sweater groen.",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/stone-island-sweater-groen/"
+    },
+    {
+      "id": 84456,
+      "name": "Stone island sweater grijs.",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/stone-island-sweater-grijs/"
+    },
+    {
+      "id": 84443,
+      "name": "Stone island sweater",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/stone-island-sweater/"
+    },
+    {
+      "id": 84432,
+      "name": "Stone island sweater dark blue",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/stone-island-sweater-dark-blue/"
+    },
+    {
+      "id": 84426,
+      "name": "Stone island sweater zwart",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/stone-island-sweater-zwart/"
+    },
+    {
+      "id": 84408,
+      "name": "Stone island zip trui",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/stone-island-zip-trui/"
+    },
+    {
+      "id": 84402,
+      "name": "Stone island zip trui zwart",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/stone-island-zip-trui-zwart/"
+    },
+    {
+      "id": 84389,
+      "name": "Stone island zip trui lichtblauw",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/stone-island-zip-trui-lichtblauw/"
+    },
+    {
+      "id": 84383,
+      "name": "Stone island zip trui groen.",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/stone-island-zip-trui-groen/"
+    },
+    {
+      "id": 84303,
+      "name": "Hermes Tricot trui Dark Blue",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/hermes-tricot-trui-dark-blue/"
+    },
+    {
+      "id": 84297,
+      "name": "Louis Vuitton trui blauw.",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/louis-vuitton-trui-blauw/"
+    },
+    {
+      "id": 84217,
+      "name": "Loewe sweater black",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/loewe-sweater-black/"
+    },
+    {
+      "id": 84197,
+      "name": "Loewe hoodie wit.",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/loewe-hoodie-wit/"
+    },
+    {
+      "id": 84191,
+      "name": "Loewe sweater light blue",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/loewe-sweater-light-blue/"
+    },
+    {
+      "id": 84177,
+      "name": "Louis Vuitton trui zwart",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/louis-vuitton-trui-zwart/"
+    },
+    {
+      "id": 84171,
+      "name": "Ami sweater navy Blue",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/ami-sweater-navy-blue/"
+    },
+    {
+      "id": 84148,
+      "name": "Hermes tricot trui zwart",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/hermes-tricot-trui-zwart/"
+    },
+    {
+      "id": 84142,
+      "name": "Hermes Tricot trui beige.",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/hermes-tricot-trui-beige/"
+    },
+    {
+      "id": 84126,
+      "name": "Moncler sweater",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/moncler-sweater/"
+    },
+    {
+      "id": 84120,
+      "name": "Hermes sweater black",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/hermes-sweater-black/"
+    },
+    {
+      "id": 84096,
+      "name": "Dior sweater CD icon khaki",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/dior-sweater-cd-icon-khaki/"
+    },
+    {
+      "id": 84077,
+      "name": "Dior sweater CD icon navy blue",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/dior-sweater-cd-icon-navy-blue/"
+    },
+    {
+      "id": 84067,
+      "name": "Moncler hoodie",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/moncler-hoodie-3/"
+    },
+    {
+      "id": 84061,
+      "name": "Moncler hoodie",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/moncler-hoodie-2/"
+    },
+    {
+      "id": 84055,
+      "name": "Moncler hoodie",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/moncler-hoodie/"
+    },
+    {
+      "id": 80313,
+      "name": "Louis Vuitton Monogram Half Zip Sluiting / Zwart",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/louis-vuitton-monogram-half-zip-sluiting-zwart/"
+    },
+    {
+      "id": 80307,
+      "name": "Louis Vuitton luxe Zipped Hoodie",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/louis-vuitton-luxe-zipped-hoodie/"
+    },
+    {
+      "id": 80257,
+      "name": "Dior Full-Zip Hoodie / Grijs",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/dior-full-zip-hoodie-grijs/"
+    },
+    {
+      "id": 79602,
+      "name": "Hermes Polo Tricot Black",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/hermes-polo-tricot-black/"
+    },
+    {
+      "id": 79534,
+      "name": "Louis Vuitton trui",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/louis-vuitton-trui/"
+    },
+    {
+      "id": 79527,
+      "name": "Louis Vuitton trui dark",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/louis-vuitton-trui-dark/"
+    },
+    {
+      "id": 78815,
+      "name": "Prada turtle neck grey",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/prada-turtle-neck-grey/"
+    },
+    {
+      "id": 74523,
+      "name": "Casablanca sweater",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/casablanca-sweater/"
+    },
+    {
+      "id": 74159,
+      "name": "Dior CD hoodie AAA +",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/dior-cd-hoodie-aaa/"
+    },
+    {
+      "id": 74117,
+      "name": "Burberry hoodie",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/burberry-hoodie/"
+    },
+    {
+      "id": 74082,
+      "name": "Heron preston  hoodie AAA +",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/heron-preston-hoodie-aaa-2/"
+    },
+    {
+      "id": 74076,
+      "name": "Heron preston  hoodie AAA +",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/heron-preston-hoodie-aaa/"
+    },
+    {
+      "id": 74070,
+      "name": "Dior CD hoodie AAA + White",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/dior-cd-hoodie-aaa-white/"
+    },
+    {
+      "id": 73294,
+      "name": "Christian Dior hoodie white.",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/christian-dior-hoodie-white/"
+    },
+    {
+      "id": 73288,
+      "name": "Balenciaga",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/balenciaga/"
+    },
+    {
+      "id": 73276,
+      "name": "Amiri Hoody",
+      "type": "variable",
+      "old_price": "",
+      "permalink": "https://luxurybyyou.com/product/amiri-hoody/"
+    }
+  ]
+}
