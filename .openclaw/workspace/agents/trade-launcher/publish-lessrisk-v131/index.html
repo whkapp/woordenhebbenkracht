@@ -3,35 +3,34 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Less Risk No Glory — Join the Community</title>
+  <title>Less Risk No Glory</title>
   <style>
-    :root{--bg:#040404;--bg2:#0b0b0c;--card:#111113;--line:#2c2a26;--gold:#d7b66d;--gold2:#f4df9a;--silver:#d8d8d8;--muted:#a39d92;--text:#f6f2e8;--darkgold:#8b6b2c;--ok:#d8f7c0;--danger:#ffb4a8}
-    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:radial-gradient(circle at top,rgba(215,182,109,.16),transparent 34%),linear-gradient(180deg,#050505 0%,#0a0a0c 48%,#040404 100%);color:var(--text)}
-    body:before{content:"";position:fixed;inset:0;pointer-events:none;background:linear-gradient(90deg,rgba(255,255,255,.022) 1px,transparent 1px),linear-gradient(rgba(255,255,255,.018) 1px,transparent 1px);background-size:60px 60px;mask-image:radial-gradient(circle at top,black,transparent 74%)}
+    :root{--bg:#040404;--card:#111113;--line:#2c2a26;--gold:#d7b66d;--gold2:#f4df9a;--silver:#d8d8d8;--muted:#a39d92;--text:#f6f2e8;--darkgold:#8b6b2c;--ok:#d8f7c0;--danger:#ffb4a8}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:radial-gradient(circle at top,rgba(215,182,109,.14),transparent 34%),linear-gradient(180deg,#050505 0%,#0a0a0c 48%,#040404 100%);color:var(--text)}
+    body:before{content:"";position:fixed;inset:0;pointer-events:none;background:linear-gradient(90deg,rgba(255,255,255,.02) 1px,transparent 1px),linear-gradient(rgba(255,255,255,.015) 1px,transparent 1px);background-size:60px 60px;mask-image:radial-gradient(circle at top,black,transparent 74%)}
     a{color:var(--gold2)}
-    .wrap{max-width:1180px;margin:0 auto;padding:24px;position:relative}
+    .wrap{max-width:1120px;margin:0 auto;padding:24px;position:relative}
     .pillNavWrap{position:sticky;top:18px;z-index:40;display:flex;justify-content:center;padding-top:6px}
-    .pillNav{display:flex;align-items:center;gap:10px;padding:10px 12px 10px 10px;border:1px solid rgba(244,223,154,.24);border-radius:999px;background:rgba(8,8,9,.78);backdrop-filter:blur(16px);box-shadow:0 20px 60px rgba(0,0,0,.35)}
+    .pillNav{display:flex;align-items:center;gap:10px;padding:10px 12px 10px 10px;border:1px solid rgba(244,223,154,.22);border-radius:999px;background:rgba(8,8,9,.78);backdrop-filter:blur(16px);box-shadow:0 20px 60px rgba(0,0,0,.35)}
     .brandPill{display:flex;align-items:center;gap:12px;padding:6px 14px 6px 6px;border-radius:999px;background:linear-gradient(135deg,rgba(244,223,154,.12),rgba(255,255,255,.04));text-decoration:none;color:var(--text)}
     .brandPill img{width:46px;height:46px;border-radius:50%;object-fit:cover;border:1px solid rgba(244,223,154,.5);box-shadow:0 0 24px rgba(215,182,109,.22)}
     .brandName{font-family:Georgia,serif;font-size:17px;letter-spacing:.14em;text-transform:uppercase}.brandTag{font-size:10px;letter-spacing:.26em;color:var(--muted);text-transform:uppercase}
     .pillLinks{display:flex;align-items:center;gap:8px;flex-wrap:wrap}.pillLinks a{text-decoration:none;color:var(--silver);font-size:13px;padding:12px 16px;border-radius:999px;border:1px solid transparent;transition:.2s ease}.pillLinks a:hover{border-color:rgba(244,223,154,.24);background:rgba(255,255,255,.03);color:var(--gold2)}
-    .hero{display:grid;grid-template-columns:1.08fr .92fr;gap:30px;align-items:center;padding:38px 0 28px}.badge{display:inline-flex;align-items:center;gap:9px;padding:9px 13px;border-radius:999px;border:1px solid rgba(215,182,109,.45);background:rgba(215,182,109,.08);font-size:12px;letter-spacing:.13em;color:var(--gold2);text-transform:uppercase}.badge:before{content:"";width:7px;height:7px;border-radius:50%;background:var(--gold);box-shadow:0 0 18px var(--gold)}
-    h1{font-family:Georgia,serif;font-size:clamp(42px,7vw,82px);line-height:.95;margin:20px 0 18px}.gold{background:linear-gradient(90deg,var(--silver),var(--gold2),var(--darkgold));-webkit-background-clip:text;background-clip:text;color:transparent}
-    .sub{font-size:20px;line-height:1.65;color:#d0cbc1;max-width:760px}.ctaRow{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}.btn{display:inline-flex;align-items:center;justify-content:center;padding:15px 20px;border-radius:14px;font-weight:900;text-decoration:none;border:0;cursor:pointer}.btn.primary{background:linear-gradient(135deg,var(--gold2),var(--gold),#8b6b2c);color:#070605;box-shadow:0 16px 36px rgba(215,182,109,.18)}.btn.secondary{background:#0d0d0f;color:var(--silver);border:1px solid rgba(215,182,109,.35)}
-    .heroCard,.card{background:linear-gradient(180deg,rgba(17,17,19,.97),rgba(8,8,9,.98));border:1px solid var(--line);border-radius:28px;box-shadow:0 24px 80px rgba(0,0,0,.36)}
-    .heroCard{padding:22px}.heroCard img{width:100%;display:block;border-radius:22px}
+    .hero{display:grid;grid-template-columns:1.05fr .95fr;gap:28px;align-items:center;padding:38px 0 24px}.badge{display:inline-flex;align-items:center;gap:9px;padding:9px 13px;border-radius:999px;border:1px solid rgba(215,182,109,.4);background:rgba(215,182,109,.08);font-size:12px;letter-spacing:.12em;color:var(--gold2);text-transform:uppercase}.badge:before{content:"";width:7px;height:7px;border-radius:50%;background:var(--gold);box-shadow:0 0 18px var(--gold)}
+    h1{font-family:Georgia,serif;font-size:clamp(40px,6vw,74px);line-height:.96;margin:20px 0 16px}.gold{background:linear-gradient(90deg,var(--silver),var(--gold2),var(--darkgold));-webkit-background-clip:text;background-clip:text;color:transparent}
+    .sub{font-size:19px;line-height:1.6;color:#d0cbc1;max-width:700px}.ctaRow{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}.btn{display:inline-flex;align-items:center;justify-content:center;padding:15px 20px;border-radius:14px;font-weight:900;text-decoration:none;border:0;cursor:pointer}.btn.primary{background:linear-gradient(135deg,var(--gold2),var(--gold),#8b6b2c);color:#070605;box-shadow:0 16px 36px rgba(215,182,109,.18)}.btn.secondary{background:#0d0d0f;color:var(--silver);border:1px solid rgba(215,182,109,.35)}
+    .heroCard,.card{background:linear-gradient(180deg,rgba(17,17,19,.97),rgba(8,8,9,.98));border:1px solid var(--line);border-radius:28px;box-shadow:0 24px 80px rgba(0,0,0,.34)}
+    .heroCard{padding:20px}.heroCard img{width:100%;display:block;border-radius:22px}
     .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:18px}.stat{padding:16px;border-radius:18px;border:1px solid var(--line);background:#0c0c0d}.stat strong{display:block;font-size:24px;color:var(--gold2)}.stat span{display:block;margin-top:6px;color:var(--muted);font-size:13px;line-height:1.45}
-    .grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}.card{padding:28px}.eyebrow{font-size:12px;letter-spacing:.2em;color:var(--muted);text-transform:uppercase;margin-bottom:8px}.title{font-family:Georgia,serif;font-size:34px;margin:0 0 12px;color:var(--gold2)}
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}.card{padding:28px}.eyebrow{font-size:12px;letter-spacing:.2em;color:var(--muted);text-transform:uppercase;margin-bottom:8px}.title{font-family:Georgia,serif;font-size:32px;margin:0 0 12px;color:var(--gold2)}
     .list{display:grid;gap:14px;margin-top:22px}.item{display:flex;gap:13px;align-items:flex-start}.dot{width:10px;height:10px;border-radius:50%;margin-top:8px;flex:0 0 10px;background:linear-gradient(135deg,var(--gold2),var(--gold));box-shadow:0 0 16px rgba(215,182,109,.65)}
     .muted{color:var(--muted)}.small{font-size:13px;line-height:1.6;color:var(--muted)}
-    form{display:grid;gap:14px;margin-top:14px}label{display:block;font-size:12px;color:var(--gold2);letter-spacing:.12em;text-transform:uppercase;margin-bottom:7px}input,textarea,select{width:100%;padding:15px;border-radius:14px;border:1px solid #2a2824;background:#060606;color:var(--text);font-size:15px;outline:none}input:focus,textarea:focus,select:focus{border-color:var(--gold);box-shadow:0 0 0 3px rgba(215,182,109,.12)}textarea{min-height:110px;resize:vertical}
-    button{border:0;background:linear-gradient(135deg,var(--gold2),var(--gold),#8b6b2c);color:#070605;font-weight:900;padding:15px 18px;border-radius:14px;font-size:15px;cursor:pointer}button:disabled{opacity:.6;cursor:not-allowed}
+    form{display:grid;gap:14px;margin-top:14px}label{display:block;font-size:12px;color:var(--gold2);letter-spacing:.12em;text-transform:uppercase;margin-bottom:7px}input,textarea{width:100%;padding:15px;border-radius:14px;border:1px solid #2a2824;background:#060606;color:var(--text);font-size:15px;outline:none}input:focus,textarea:focus{border-color:var(--gold);box-shadow:0 0 0 3px rgba(215,182,109,.12)}textarea{min-height:110px;resize:vertical}button{border:0;background:linear-gradient(135deg,var(--gold2),var(--gold),#8b6b2c);color:#070605;font-weight:900;padding:15px 18px;border-radius:14px;font-size:15px;cursor:pointer}button:disabled{opacity:.6;cursor:not-allowed}
     .pillRow{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}.pill{display:inline-flex;align-items:center;padding:10px 14px;border-radius:999px;border:1px solid var(--line);font-size:13px}.pill.ok{background:rgba(216,247,192,.08);color:var(--ok)}.pill.gold{background:rgba(244,223,154,.08);color:var(--gold2)}.pill.blue{background:rgba(143,190,255,.08);color:#9dc7ff}
-    .section{padding:18px 0 42px}.newsGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:18px}.newsCard{padding:20px;border-radius:22px;border:1px solid var(--line);background:linear-gradient(180deg,#111113,#090909)}.newsMeta{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:10px}.newsBadge{display:inline-flex;align-items:center;padding:7px 10px;border-radius:999px;font-size:11px;border:1px solid var(--line);color:var(--gold2);background:rgba(244,223,154,.06)}.newsCard h3{margin:0 0 10px;font-size:20px;line-height:1.25}.newsCard p{margin:0 0 12px;color:#d0cbc1;line-height:1.6}.newsLink{font-weight:700;text-decoration:none}.emptyNews{padding:22px;border:1px dashed #3a3427;border-radius:22px;color:var(--muted)}
+    .section{padding:18px 0 42px}.newsGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:18px}.newsCard{padding:20px;border-radius:22px;border:1px solid var(--line);background:linear-gradient(180deg,#111113,#090909)}.newsMeta{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:10px}.newsBadge{display:inline-flex;align-items:center;padding:7px 10px;border-radius:999px;font-size:11px;border:1px solid var(--line);color:var(--gold2);background:rgba(244,223,154,.06)}.newsCard h3{margin:0 0 10px;font-size:19px;line-height:1.25}.newsCard p{margin:0 0 12px;color:#d0cbc1;line-height:1.6}.newsLink{font-weight:700;text-decoration:none}.emptyNews{padding:22px;border:1px dashed #3a3427;border-radius:22px;color:var(--muted)}
     .faq{display:grid;gap:16px}.q{font-family:Georgia,serif;color:var(--gold2);font-size:19px;margin-bottom:6px}.footer{padding:34px 0 60px;text-align:center;color:var(--muted);font-size:13px}
     .divider{height:1px;background:linear-gradient(90deg,transparent,var(--darkgold),var(--silver),var(--darkgold),transparent);margin:8px 0 30px}
-    @media (max-width:960px){.pillNav{flex-wrap:wrap;justify-content:center}.hero,.grid,.newsGrid{grid-template-columns:1fr}.stats{grid-template-columns:1fr}h1{font-size:46px}.sub{font-size:18px}}
+    @media (max-width:960px){.pillNav{flex-wrap:wrap;justify-content:center}.hero,.grid,.newsGrid{grid-template-columns:1fr}.stats{grid-template-columns:1fr}h1{font-size:44px}.sub{font-size:18px}}
   </style>
 </head>
 <body>
@@ -48,7 +47,7 @@
         <div class="pillLinks">
           <a href="#home">Home</a>
           <a href="#news">News</a>
-          <a href="#contact">Contact</a>
+          <a href="https://t.me/c/3955885540/75" target="_blank" rel="noopener noreferrer">Helpdesk</a>
         </div>
       </nav>
     </div>
@@ -56,16 +55,16 @@
     <section class="hero" id="home">
       <div>
         <span class="badge">Members Only • 7 Days Free Trial</span>
-        <h1><span class="gold">Join the community.</span><br>Get your edge every day.</h1>
-        <p class="sub">Get instant trading news, daily trading ideas, premium community access and the Less Risk No Glory MT5 execution flow — all in one members-only environment.</p>
+        <h1><span class="gold">Join the community.</span><br>Get daily market updates.</h1>
+        <p class="sub">Instant trading news, daily trading ideas and access to the Less Risk No Glory community.</p>
         <div class="ctaRow">
           <a class="btn primary" href="#contact">Start my 7-day free trial</a>
-          <a class="btn secondary" href="#news">See live market news</a>
+          <a class="btn secondary" href="#news">View news</a>
         </div>
         <div class="stats">
-          <div class="stat"><strong>7 days</strong><span>Free trial to test the LRNG community and setup flow.</span></div>
-          <div class="stat"><strong>Instant</strong><span>Trading news, member updates and daily trading ideas.</span></div>
-          <div class="stat"><strong>Semi-auto</strong><span>Faster MT5 execution without giving away final control.</span></div>
+          <div class="stat"><strong>7 days</strong><span>Free trial</span></div>
+          <div class="stat"><strong>Daily</strong><span>News and trading ideas</span></div>
+          <div class="stat"><strong>Private</strong><span>Members only access</span></div>
         </div>
       </div>
       <div class="heroCard">
@@ -78,10 +77,10 @@
     <section class="section" id="news">
       <div class="card">
         <div class="eyebrow">Live market stream</div>
-        <h2 class="title">News feed</h2>
-        <p class="muted">This section follows the same market-news flow used for the LRNG Telegram updates, presented here as clean blocks.</p>
+        <h2 class="title">News</h2>
+        <p class="muted">Clean market updates from the same LRNG news flow.</p>
         <div id="newsGrid" class="newsGrid">
-          <div class="emptyNews">Loading news…</div>
+          <div class="emptyNews">Loading news...</div>
         </div>
       </div>
     </section>
@@ -89,33 +88,33 @@
     <section class="grid" id="contact">
       <div class="card">
         <div class="eyebrow">What you get</div>
-        <h2 class="title">Premium community + daily edge</h2>
-        <p class="muted">This is not sold as blind automation. It is a premium trading membership with faster execution tooling, cleaner workflow and direct access to the LRNG environment.</p>
+        <h2 class="title">Premium access</h2>
+        <p class="muted">A private setup focused on news, ideas and a clean execution flow.</p>
         <div class="list">
-          <div class="item"><span class="dot"></span><div><strong>Instant trading news</strong><div class="muted">Stay on top of what matters without digging through noise.</div></div></div>
-          <div class="item"><span class="dot"></span><div><strong>Daily trading ideas</strong><div class="muted">Structured setups and educational direction for the trading day.</div></div></div>
-          <div class="item"><span class="dot"></span><div><strong>Private community access</strong><div class="muted">Join the Less Risk No Glory members-only Telegram environment.</div></div></div>
-          <div class="item"><span class="dot"></span><div><strong>MT5 helper & launcher flow</strong><div class="muted">Use the protected onboarding flow for a smoother semi-auto execution workflow.</div></div></div>
+          <div class="item"><span class="dot"></span><div><strong>Instant trading news</strong><div class="muted">Clear updates without noise.</div></div></div>
+          <div class="item"><span class="dot"></span><div><strong>Daily trading ideas</strong><div class="muted">Structured market direction for the day.</div></div></div>
+          <div class="item"><span class="dot"></span><div><strong>Private community access</strong><div class="muted">Inside the Less Risk No Glory members area.</div></div></div>
+          <div class="item"><span class="dot"></span><div><strong>Protected onboarding flow</strong><div class="muted">Access is handled after signup.</div></div></div>
         </div>
         <div class="pillRow">
           <div class="pill ok">7-day free trial</div>
-          <div class="pill gold">Commercial onboarding</div>
-          <div class="pill blue">Tracked in admin system</div>
+          <div class="pill gold">Tracked access</div>
+          <div class="pill blue">Admin managed</div>
         </div>
       </div>
 
       <div class="card">
         <div class="eyebrow">Apply now</div>
         <h2 class="title">Start your free trial</h2>
-        <p class="muted">Fill in the form below. Your details go through the existing LRNG signup flow, and access is tracked in the current admin system.</p>
+        <p class="muted">Fill in the form below. Your signup is tracked in the current LRNG system.</p>
         <form id="signupForm">
           <div><label>Full name</label><input name="name" required placeholder="Your full name"></div>
           <div><label>Email address</label><input type="email" name="email" required placeholder="you@example.com"></div>
           <div><label>Telegram username</label><input name="telegram" required placeholder="@username"></div>
-          <div><label>Your main device</label><select name="device" required><option value="Laptop/Desktop">Laptop/Desktop</option><option value="Phone">Phone</option><option value="Both">Both</option></select></div>
-          <div><label>Extra info</label><textarea name="notes" placeholder="Questions, broker, experience level, goals..."></textarea></div>
-          <button type="submit" id="submitBtn">Get instant trading news & daily ideas</button>
-          <div class="small">By applying, you understand this is education + execution tooling. All trades and decisions remain your own responsibility.</div>
+          <div><label>Device</label><input name="device" value="LAPTOP ONLY" readonly></div>
+          <div><label>Extra info</label><textarea name="notes" placeholder="Questions or extra details..."></textarea></div>
+          <button type="submit" id="submitBtn">Get instant trading news and daily ideas</button>
+          <div class="small">This is education and tooling. Trading decisions stay your own responsibility.</div>
           <div class="small" id="formStatus"></div>
         </form>
       </div>
@@ -123,13 +122,13 @@
 
     <section class="section">
       <div class="card faq">
-        <div><div class="q">What happens after I sign up?</div><div class="muted">You enter the existing LRNG signup flow, receive onboarding by email and can continue into the protected setup path.</div></div>
-        <div><div class="q">How do I get the installer?</div><div class="muted">After signup, access is handled through the LRNG onboarding flow. Trial data, access timing and follow-up are tracked in the existing system.</div></div>
-        <div><div class="q">Is this fully automatic trading?</div><div class="muted">No. Less Risk No Glory positions this as premium signals, community access and semi-auto MT5 execution support.</div></div>
+        <div><div class="q">What happens after I sign up?</div><div class="muted">You enter the LRNG signup flow and receive the next steps by email.</div></div>
+        <div><div class="q">How do I get the installer?</div><div class="muted">Access is handled after signup through the existing onboarding flow.</div></div>
+        <div><div class="q">Is this fully automatic trading?</div><div class="muted">No. It is a private membership with news, ideas and semi-auto support.</div></div>
       </div>
     </section>
 
-    <div class="footer">LESS RISK NO GLORY • HOME • NEWS • CONTACT • 7 DAYS FREE TRIAL • INSTANT TRADING NEWS & DAILY TRADING IDEAS</div>
+    <div class="footer">LESS RISK NO GLORY • 7 DAYS FREE TRIAL • INSTANT TRADING NEWS • DAILY TRADING IDEAS</div>
   </div>
 
   <script>
@@ -137,16 +136,14 @@
     const statusEl = document.getElementById('formStatus');
     const submitBtn = document.getElementById('submitBtn');
     const newsGrid = document.getElementById('newsGrid');
-
     function esc(v){return String(v ?? '').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]))}
-
     async function loadNews(){
       try{
         const res = await fetch('news-feed.json?ts=' + Date.now(), {cache:'no-store'});
         const data = await res.json();
         const items = Array.isArray(data?.items) ? data.items : [];
         if(!items.length){
-          newsGrid.innerHTML = '<div class="emptyNews">No fresh market blocks yet. The news section will populate automatically from the LRNG alert flow.</div>';
+          newsGrid.innerHTML = '<div class="emptyNews">No fresh market updates yet.</div>';
           return;
         }
         newsGrid.innerHTML = items.map(item => `
@@ -154,18 +151,16 @@
             <div class="newsMeta">
               <span class="newsBadge">${esc(item.marketLabel || item.market || 'Market')}</span>
               <span class="newsBadge">${esc(item.source || 'Source')}</span>
-              <span class="newsBadge">${esc(item.bias || 'mixed')}</span>
             </div>
             <h3>${esc(item.title || '')}</h3>
             <p>${esc(item.summary || '')}</p>
-            <a class="newsLink" href="${esc(item.link || '#')}" target="_blank" rel="noopener noreferrer">Open source →</a>
+            <a class="newsLink" href="${esc(item.link || '#')}" target="_blank" rel="noopener noreferrer">Open source</a>
           </article>
         `).join('');
       }catch(e){
-        newsGrid.innerHTML = '<div class="emptyNews">News feed is not available right now. Please check back shortly.</div>';
+        newsGrid.innerHTML = '<div class="emptyNews">News feed is not available right now.</div>';
       }
     }
-
     form?.addEventListener('submit', async (e) => {
       e.preventDefault();
       statusEl.style.color = '#a39d92';
@@ -181,8 +176,9 @@
         const data = await res.json();
         if (!res.ok || !data.ok) throw new Error(data.error || 'Signup failed');
         form.reset();
+        form.querySelector('[name="device"]').value = 'LAPTOP ONLY';
         statusEl.style.color = '#d8f7c0';
-        statusEl.innerHTML = 'You’re in. Check your email for the LRNG onboarding and setup package.';
+        statusEl.textContent = 'You are in. Check your email for the next steps.';
       } catch (err) {
         statusEl.style.color = '#ffb4a8';
         statusEl.textContent = err.message || 'Something went wrong. Please try again.';
@@ -190,7 +186,6 @@
         submitBtn.disabled = false;
       }
     });
-
     loadNews();
   </script>
 </body>
