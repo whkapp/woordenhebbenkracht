@@ -10,11 +10,13 @@
     body:before{content:"";position:fixed;inset:0;pointer-events:none;background:linear-gradient(90deg,rgba(255,255,255,.022) 1px,transparent 1px),linear-gradient(rgba(255,255,255,.018) 1px,transparent 1px);background-size:60px 60px;mask-image:radial-gradient(circle at top,black,transparent 74%)}
     a{color:var(--gold2)}
     .wrap{max-width:1180px;margin:0 auto;padding:24px;position:relative}
-    .nav{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:4px 0 14px}
-    .brand{display:flex;align-items:center;gap:14px}.brand img{width:58px;height:58px;border-radius:50%;object-fit:cover;border:1px solid rgba(244,223,154,.5);box-shadow:0 0 30px rgba(215,182,109,.2)}
-    .brandName{font-family:Georgia,serif;font-size:20px;letter-spacing:.14em;text-transform:uppercase}.brandTag{font-size:11px;letter-spacing:.28em;color:var(--muted);text-transform:uppercase}
-    .navLinks{display:flex;gap:10px;flex-wrap:wrap}.navLinks a{text-decoration:none;color:var(--silver);font-size:13px;padding:10px 14px;border-radius:999px;border:1px solid var(--line);background:rgba(255,255,255,.03)}
-    .hero{display:grid;grid-template-columns:1.08fr .92fr;gap:30px;align-items:center;padding:44px 0 32px}.badge{display:inline-flex;align-items:center;gap:9px;padding:9px 13px;border-radius:999px;border:1px solid rgba(215,182,109,.45);background:rgba(215,182,109,.08);font-size:12px;letter-spacing:.13em;color:var(--gold2);text-transform:uppercase}.badge:before{content:"";width:7px;height:7px;border-radius:50%;background:var(--gold);box-shadow:0 0 18px var(--gold)}
+    .pillNavWrap{position:sticky;top:18px;z-index:40;display:flex;justify-content:center;padding-top:6px}
+    .pillNav{display:flex;align-items:center;gap:10px;padding:10px 12px 10px 10px;border:1px solid rgba(244,223,154,.24);border-radius:999px;background:rgba(8,8,9,.78);backdrop-filter:blur(16px);box-shadow:0 20px 60px rgba(0,0,0,.35)}
+    .brandPill{display:flex;align-items:center;gap:12px;padding:6px 14px 6px 6px;border-radius:999px;background:linear-gradient(135deg,rgba(244,223,154,.12),rgba(255,255,255,.04));text-decoration:none;color:var(--text)}
+    .brandPill img{width:46px;height:46px;border-radius:50%;object-fit:cover;border:1px solid rgba(244,223,154,.5);box-shadow:0 0 24px rgba(215,182,109,.22)}
+    .brandName{font-family:Georgia,serif;font-size:17px;letter-spacing:.14em;text-transform:uppercase}.brandTag{font-size:10px;letter-spacing:.26em;color:var(--muted);text-transform:uppercase}
+    .pillLinks{display:flex;align-items:center;gap:8px;flex-wrap:wrap}.pillLinks a{text-decoration:none;color:var(--silver);font-size:13px;padding:12px 16px;border-radius:999px;border:1px solid transparent;transition:.2s ease}.pillLinks a:hover{border-color:rgba(244,223,154,.24);background:rgba(255,255,255,.03);color:var(--gold2)}
+    .hero{display:grid;grid-template-columns:1.08fr .92fr;gap:30px;align-items:center;padding:38px 0 28px}.badge{display:inline-flex;align-items:center;gap:9px;padding:9px 13px;border-radius:999px;border:1px solid rgba(215,182,109,.45);background:rgba(215,182,109,.08);font-size:12px;letter-spacing:.13em;color:var(--gold2);text-transform:uppercase}.badge:before{content:"";width:7px;height:7px;border-radius:50%;background:var(--gold);box-shadow:0 0 18px var(--gold)}
     h1{font-family:Georgia,serif;font-size:clamp(42px,7vw,82px);line-height:.95;margin:20px 0 18px}.gold{background:linear-gradient(90deg,var(--silver),var(--gold2),var(--darkgold));-webkit-background-clip:text;background-clip:text;color:transparent}
     .sub{font-size:20px;line-height:1.65;color:#d0cbc1;max-width:760px}.ctaRow{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}.btn{display:inline-flex;align-items:center;justify-content:center;padding:15px 20px;border-radius:14px;font-weight:900;text-decoration:none;border:0;cursor:pointer}.btn.primary{background:linear-gradient(135deg,var(--gold2),var(--gold),#8b6b2c);color:#070605;box-shadow:0 16px 36px rgba(215,182,109,.18)}.btn.secondary{background:#0d0d0f;color:var(--silver);border:1px solid rgba(215,182,109,.35)}
     .heroCard,.card{background:linear-gradient(180deg,rgba(17,17,19,.97),rgba(8,8,9,.98));border:1px solid var(--line);border-radius:28px;box-shadow:0 24px 80px rgba(0,0,0,.36)}
@@ -26,35 +28,39 @@
     form{display:grid;gap:14px;margin-top:14px}label{display:block;font-size:12px;color:var(--gold2);letter-spacing:.12em;text-transform:uppercase;margin-bottom:7px}input,textarea,select{width:100%;padding:15px;border-radius:14px;border:1px solid #2a2824;background:#060606;color:var(--text);font-size:15px;outline:none}input:focus,textarea:focus,select:focus{border-color:var(--gold);box-shadow:0 0 0 3px rgba(215,182,109,.12)}textarea{min-height:110px;resize:vertical}
     button{border:0;background:linear-gradient(135deg,var(--gold2),var(--gold),#8b6b2c);color:#070605;font-weight:900;padding:15px 18px;border-radius:14px;font-size:15px;cursor:pointer}button:disabled{opacity:.6;cursor:not-allowed}
     .pillRow{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}.pill{display:inline-flex;align-items:center;padding:10px 14px;border-radius:999px;border:1px solid var(--line);font-size:13px}.pill.ok{background:rgba(216,247,192,.08);color:var(--ok)}.pill.gold{background:rgba(244,223,154,.08);color:var(--gold2)}.pill.blue{background:rgba(143,190,255,.08);color:#9dc7ff}
+    .section{padding:18px 0 42px}.newsGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:18px}.newsCard{padding:20px;border-radius:22px;border:1px solid var(--line);background:linear-gradient(180deg,#111113,#090909)}.newsMeta{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:10px}.newsBadge{display:inline-flex;align-items:center;padding:7px 10px;border-radius:999px;font-size:11px;border:1px solid var(--line);color:var(--gold2);background:rgba(244,223,154,.06)}.newsCard h3{margin:0 0 10px;font-size:20px;line-height:1.25}.newsCard p{margin:0 0 12px;color:#d0cbc1;line-height:1.6}.newsLink{font-weight:700;text-decoration:none}.emptyNews{padding:22px;border:1px dashed #3a3427;border-radius:22px;color:var(--muted)}
     .faq{display:grid;gap:16px}.q{font-family:Georgia,serif;color:var(--gold2);font-size:19px;margin-bottom:6px}.footer{padding:34px 0 60px;text-align:center;color:var(--muted);font-size:13px}
     .divider{height:1px;background:linear-gradient(90deg,transparent,var(--darkgold),var(--silver),var(--darkgold),transparent);margin:8px 0 30px}
-    @media (max-width:960px){.hero,.grid{grid-template-columns:1fr}.stats{grid-template-columns:1fr}.brandName{font-size:17px}h1{font-size:46px}.sub{font-size:18px}}
+    @media (max-width:960px){.pillNav{flex-wrap:wrap;justify-content:center}.hero,.grid,.newsGrid{grid-template-columns:1fr}.stats{grid-template-columns:1fr}h1{font-size:46px}.sub{font-size:18px}}
   </style>
 </head>
 <body>
   <div class="wrap">
-    <nav class="nav">
-      <div class="brand">
-        <img src="less-risk-no-glory-logo.jpg" alt="Less Risk No Glory">
-        <div>
-          <div class="brandName">Less Risk</div>
-          <div class="brandTag">No Glory</div>
+    <div class="pillNavWrap">
+      <nav class="pillNav">
+        <a class="brandPill" href="#home">
+          <img src="less-risk-no-glory-logo.jpg" alt="Less Risk No Glory">
+          <div>
+            <div class="brandName">Less Risk</div>
+            <div class="brandTag">No Glory</div>
+          </div>
+        </a>
+        <div class="pillLinks">
+          <a href="#home">Home</a>
+          <a href="#news">News</a>
+          <a href="#contact">Contact</a>
         </div>
-      </div>
-      <div class="navLinks">
-        <a href="#join">Start Free Trial</a>
-        <a href="#join">Apply for Access</a>
-      </div>
-    </nav>
+      </nav>
+    </div>
 
-    <section class="hero">
+    <section class="hero" id="home">
       <div>
         <span class="badge">Members Only • 7 Days Free Trial</span>
         <h1><span class="gold">Join the community.</span><br>Get your edge every day.</h1>
         <p class="sub">Get instant trading news, daily trading ideas, premium community access and the Less Risk No Glory MT5 execution flow — all in one members-only environment.</p>
         <div class="ctaRow">
-          <a class="btn primary" href="#join">Start my 7-day free trial</a>
-          <a class="btn secondary" href="#join">Apply for private access</a>
+          <a class="btn primary" href="#contact">Start my 7-day free trial</a>
+          <a class="btn secondary" href="#news">See live market news</a>
         </div>
         <div class="stats">
           <div class="stat"><strong>7 days</strong><span>Free trial to test the LRNG community and setup flow.</span></div>
@@ -69,7 +75,18 @@
 
     <div class="divider"></div>
 
-    <section class="grid" id="join">
+    <section class="section" id="news">
+      <div class="card">
+        <div class="eyebrow">Live market stream</div>
+        <h2 class="title">News feed</h2>
+        <p class="muted">This section follows the same market-news flow used for the LRNG Telegram updates, presented here as clean blocks.</p>
+        <div id="newsGrid" class="newsGrid">
+          <div class="emptyNews">Loading news…</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid" id="contact">
       <div class="card">
         <div class="eyebrow">What you get</div>
         <h2 class="title">Premium community + daily edge</h2>
@@ -78,19 +95,19 @@
           <div class="item"><span class="dot"></span><div><strong>Instant trading news</strong><div class="muted">Stay on top of what matters without digging through noise.</div></div></div>
           <div class="item"><span class="dot"></span><div><strong>Daily trading ideas</strong><div class="muted">Structured setups and educational direction for the trading day.</div></div></div>
           <div class="item"><span class="dot"></span><div><strong>Private community access</strong><div class="muted">Join the Less Risk No Glory members-only Telegram environment.</div></div></div>
-          <div class="item"><span class="dot"></span><div><strong>MT5 helper & launcher flow</strong><div class="muted">Use the installer and helper setup for a smoother semi-auto execution workflow.</div></div></div>
+          <div class="item"><span class="dot"></span><div><strong>MT5 helper & launcher flow</strong><div class="muted">Use the protected onboarding flow for a smoother semi-auto execution workflow.</div></div></div>
         </div>
         <div class="pillRow">
           <div class="pill ok">7-day free trial</div>
           <div class="pill gold">Commercial onboarding</div>
-          <div class="pill blue">Existing LRNG signup flow</div>
+          <div class="pill blue">Tracked in admin system</div>
         </div>
       </div>
 
       <div class="card">
         <div class="eyebrow">Apply now</div>
         <h2 class="title">Start your free trial</h2>
-        <p class="muted">Fill in the form below. Your details go through the existing LRNG signup flow, and you’ll get the onboarding by email.</p>
+        <p class="muted">Fill in the form below. Your details go through the existing LRNG signup flow, and access is tracked in the current admin system.</p>
         <form id="signupForm">
           <div><label>Full name</label><input name="name" required placeholder="Your full name"></div>
           <div><label>Email address</label><input type="email" name="email" required placeholder="you@example.com"></div>
@@ -104,7 +121,7 @@
       </div>
     </section>
 
-    <section style="padding:22px 0 42px">
+    <section class="section">
       <div class="card faq">
         <div><div class="q">What happens after I sign up?</div><div class="muted">You enter the existing LRNG signup flow, receive onboarding by email and can continue into the protected setup path.</div></div>
         <div><div class="q">How do I get the installer?</div><div class="muted">After signup, access is handled through the LRNG onboarding flow. Trial data, access timing and follow-up are tracked in the existing system.</div></div>
@@ -112,13 +129,43 @@
       </div>
     </section>
 
-    <div class="footer">LESS RISK NO GLORY • JOIN THE COMMUNITY • 7 DAYS FREE TRIAL • INSTANT TRADING NEWS & DAILY TRADING IDEAS</div>
+    <div class="footer">LESS RISK NO GLORY • HOME • NEWS • CONTACT • 7 DAYS FREE TRIAL • INSTANT TRADING NEWS & DAILY TRADING IDEAS</div>
   </div>
 
   <script>
     const form = document.getElementById('signupForm');
     const statusEl = document.getElementById('formStatus');
     const submitBtn = document.getElementById('submitBtn');
+    const newsGrid = document.getElementById('newsGrid');
+
+    function esc(v){return String(v ?? '').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]))}
+
+    async function loadNews(){
+      try{
+        const res = await fetch('news-feed.json?ts=' + Date.now(), {cache:'no-store'});
+        const data = await res.json();
+        const items = Array.isArray(data?.items) ? data.items : [];
+        if(!items.length){
+          newsGrid.innerHTML = '<div class="emptyNews">No fresh market blocks yet. The news section will populate automatically from the LRNG alert flow.</div>';
+          return;
+        }
+        newsGrid.innerHTML = items.map(item => `
+          <article class="newsCard">
+            <div class="newsMeta">
+              <span class="newsBadge">${esc(item.marketLabel || item.market || 'Market')}</span>
+              <span class="newsBadge">${esc(item.source || 'Source')}</span>
+              <span class="newsBadge">${esc(item.bias || 'mixed')}</span>
+            </div>
+            <h3>${esc(item.title || '')}</h3>
+            <p>${esc(item.summary || '')}</p>
+            <a class="newsLink" href="${esc(item.link || '#')}" target="_blank" rel="noopener noreferrer">Open source →</a>
+          </article>
+        `).join('');
+      }catch(e){
+        newsGrid.innerHTML = '<div class="emptyNews">News feed is not available right now. Please check back shortly.</div>';
+      }
+    }
+
     form?.addEventListener('submit', async (e) => {
       e.preventDefault();
       statusEl.style.color = '#a39d92';
@@ -143,6 +190,8 @@
         submitBtn.disabled = false;
       }
     });
+
+    loadNews();
   </script>
 </body>
 </html>
