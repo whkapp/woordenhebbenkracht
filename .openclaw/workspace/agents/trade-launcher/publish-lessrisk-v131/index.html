@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Less Risk No Glory — Quick Start</title>
+  <style>
+    :root{--bg:#050505;--card:#111113;--line:#2c2a26;--gold:#d7b66d;--gold2:#f4df9a;--text:#f6f2e8;--muted:#a39d92;--ok:#88d498}
+    *{box-sizing:border-box}body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:radial-gradient(circle at top,rgba(215,182,109,.14),transparent 36%),linear-gradient(180deg,#050505,#0a0a0c 48%,#050505);color:var(--text)}
+    .wrap{max-width:900px;margin:0 auto;padding:28px 20px 48px}.hero,.card{background:linear-gradient(180deg,rgba(17,17,19,.98),rgba(10,10,11,.98));border:1px solid var(--line);border-radius:26px;box-shadow:0 24px 80px rgba(0,0,0,.38)}
+    .hero{padding:28px;margin-bottom:18px}.brand{display:flex;align-items:center;gap:16px}.brand img{width:80px;height:80px;object-fit:cover;border-radius:50%;border:1px solid rgba(244,223,154,.45)}
+    .eyebrow{font-size:11px;letter-spacing:.34em;color:var(--muted);text-transform:uppercase}.title{font-family:Georgia,serif;font-size:42px;line-height:1;margin:6px 0 12px;background:linear-gradient(90deg,#d8d8d8,var(--gold2),#8b6b2c);-webkit-background-clip:text;background-clip:text;color:transparent}.sub{font-size:18px;line-height:1.6;color:#d0cbc1;max-width:700px}
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.card{padding:24px}.card h2{margin:0 0 16px;font-size:24px}.steps{list-style:none;padding:0;margin:0;display:grid;gap:12px}.step{display:flex;gap:12px;align-items:flex-start;padding:12px 0;border-bottom:1px solid #1a1c20}.step:last-child{border-bottom:0}.num{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;background:linear-gradient(135deg,var(--gold2),var(--gold));color:#111;font-weight:900;flex:0 0 30px}.muted{color:var(--muted)}.ok{color:var(--ok)}.pill{display:inline-flex;align-items:center;gap:8px;padding:10px 14px;border-radius:999px;border:1px solid var(--line);font-size:13px;background:rgba(136,212,152,.08);color:var(--ok)}
+    .foot{margin-top:16px;font-size:13px;color:#8e887c}
+    @media (max-width:840px){.grid{grid-template-columns:1fr}.title{font-size:34px}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="hero">
+      <div class="brand">
+        <img src="less-risk-no-glory-logo.jpg" alt="Less Risk No Glory">
+        <div>
+          <div class="eyebrow">Less Risk No Glory</div>
+          <div class="title">MT5 Helper Quick Start</div>
+          <div class="sub">Professional semi-auto execution package. Alles wat je nodig hebt om de helper snel live te krijgen staat in deze map.</div>
+        </div>
+      </div>
+    </section>
+
+    <div class="grid">
+      <section class="card">
+        <h2>Installatie</h2>
+        <div style="margin-bottom:18px;padding:16px;border:1px solid #1f2127;border-radius:18px;background:#0d0e11">
+          <div class="muted" style="margin-bottom:10px">Nog geen MetaTrader 5 op je systeem?</div>
+          <a href="https://download.terminal.free/cdn/web/metaquotes.ltd/mt5/mt5setup.exe?utm_source=www.metatrader5.com&utm_campaign=download" style="display:inline-flex;align-items:center;justify-content:center;padding:14px 18px;border-radius:14px;text-decoration:none;font-weight:900;background:linear-gradient(135deg,#f4df9a,#d7b66d,#8b6b2c);color:#070605">Download MetaTrader 5</a>
+        </div>
+        <ol class="steps">
+          <li class="step"><div class="num">1</div><div>Pak deze setup package volledig uit op je Windows laptop of VPS waar MT5 draait.</div></li>
+          <li class="step"><div class="num">2</div><div>Heb je nog geen MT5? Installeer dan eerst MetaTrader 5 via de knop hierboven.</div></li>
+          <li class="step"><div class="num">3</div><div>Open MT5 minimaal 1 keer zodat de juiste terminal-mappen bestaan.</div></li>
+          <li class="step"><div class="num">4</div><div>Start <strong>LRNG-MT5-Helper.exe</strong>. De browser opent automatisch en het terminalvenster blijft zichtbaar.</div></li>
+          <li class="step"><div class="num">5</div><div>De helper zet de Expert Advisor meteen in de juiste MT5-map.</div></li>
+          <li class="step"><div class="num">6</div><div>Open in MT5: <strong>Navigator → Expert Advisors → Refresh</strong>.</div></li>
+          <li class="step"><div class="num">7</div><div>Sleep <strong>LRNG_TradeReceiver</strong> op een chart en zet <strong>AutoTrading</strong> aan.</div></li>
+        </ol>
+      </section>
+
+      <section class="card">
+        <h2>Controle</h2>
+        <div class="pill">✅ Ready for signal capture</div>
+        <ol class="steps" style="margin-top:14px">
+          <li class="step"><div class="num">1</div><div>Klik in de helper op <strong>Send test signal</strong>.</div></li>
+          <li class="step"><div class="num">2</div><div>MT5 moet nu een bevestiging-popup tonen.</div></li>
+          <li class="step"><div class="num">3</div><div>Vanaf dat moment worden LRNG-signals automatisch opgehaald zolang de helper open staat.</div></li>
+        </ol>
+        <p class="foot">Tip: laat de helper tijdens het traden gewoon open op je Windows machine.</p>
+      </section>
+    </div>
+  </div>
+</body>
+</html>

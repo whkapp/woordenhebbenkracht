@@ -1,0 +1,56 @@
+LESS RISK NO GLORY — MT5 HELPER
+EULA + ALGEMENE VOORWAARDEN
+Versie 2026-05-11
+
+Door deze software te installeren, kopiëren of gebruiken, accepteert de gebruiker deze EULA en algemene voorwaarden.
+
+1. Licentie
+- Less Risk No Glory verleent een beperkte, herroepbare, niet-exclusieve, niet-overdraagbare licentie om de LRNG MT5 Helper en LRNG_TradeReceiver te gebruiken voor eigen gebruik binnen de LRNG service.
+- Geen eigendomsrechten gaan over op de gebruiker.
+
+2. Toegestaan gebruik
+- De software is bedoeld als semi-auto trade helper voor MetaTrader 5.
+- De gebruiker blijft altijd zelf verantwoordelijk voor iedere order, bevestiging, accountinstelling, brokerkeuze, risico-instelling en uiteindelijke uitvoering.
+
+3. Geen financieel advies
+- Deze software, signalen, meldingen en workflows vormen geen financieel, juridisch of belastingadvies.
+- De gebruiker handelt volledig op eigen risico.
+
+4. Risico en aansprakelijkheid
+- Trading brengt substantieel risico op verlies mee, inclusief volledig verlies van ingelegd kapitaal.
+- Less Risk No Glory geeft geen garantie op winst, performance, uptime, compatibiliteit of foutloze werking.
+- Less Risk No Glory is niet aansprakelijk voor directe of indirecte schade, verlies, gemiste winst, brokerissues, terminalfouten, netwerkstoringen, verkeerde instellingen, verkeerde symbol mapping, slippage, requotes of mislukte orders.
+
+5. Gebruik op eigen verantwoordelijkheid
+- De gebruiker moet vóór live gebruik zelf controleren:
+  - broker symbolen
+  - lot size
+  - SL / TP
+  - AutoTrading / Algo Trading instellingen
+  - MT5 terminal permissies
+  - VPS / Windows stabiliteit
+- Iedere trade moet door de gebruiker zelf beoordeeld blijven, ook wanneer de software een semi-auto workflow ondersteunt.
+
+6. Geen reverse engineering of doorverkoop
+- Het is niet toegestaan om de software te kopiëren, reverse-engineeren, decompilen, whitelabelen, sublicentiëren, delen met derden of commercieel door te verkopen zonder schriftelijke toestemming van Less Risk No Glory.
+
+7. Updates en wijzigingen
+- Less Risk No Glory mag functionaliteit, endpoints, signal-formaten, licentievoorwaarden en beschikbaarheid op ieder moment aanpassen, pauzeren of beëindigen.
+- Oudere versies kunnen zonder waarschuwing onbruikbaar worden.
+
+8. Privacy en logs
+- De software kan lokale configuratie, signal payloads en technische logs verwerken voor werking, support en debugging.
+- De gebruiker is zelf verantwoordelijk voor veilig beheer van het eigen systeem, accounts, terminals en apparaten.
+
+9. Beëindiging
+- Bij schending van deze voorwaarden vervalt het gebruiksrecht direct.
+- Less Risk No Glory kan toegang of gebruik zonder voorafgaande kennisgeving blokkeren of intrekken.
+
+10. Toepasselijk gebruik
+- Gebruik deze software alleen als dat wettelijk is toegestaan in jouw land, regio en brokeromgeving.
+- De gebruiker is zelf verantwoordelijk voor naleving van lokale wet- en regelgeving.
+
+11. Volledige overeenkomst
+- Deze tekst vormt de volledige basis voor gebruik van de software, tenzij schriftelijk anders overeengekomen.
+
+Door op 'I Agree' / 'Ik ga akkoord' te klikken of de software te installeren, bevestigt de gebruiker dat hij/zij deze voorwaarden heeft gelezen, begrepen en geaccepteerd.
